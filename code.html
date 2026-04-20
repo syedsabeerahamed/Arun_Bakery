@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Artisanal Hearth | Arun Bakery</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error": "#ba1a1a",
+                        "on-surface-variant": "#434843",
+                        "on-background": "#1b1c19",
+                        "secondary": "#536257",
+                        "primary-fixed": "#d0e9d4",
+                        "error-container": "#ffdad6",
+                        "surface": "#fbf9f4",
+                        "surface-dim": "#dbdad5",
+                        "secondary-fixed": "#d6e7d8",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed": "#261900",
+                        "inverse-primary": "#b4cdb8",
+                        "outline": "#737973",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "on-surface": "#1b1c19",
+                        "on-secondary-fixed": "#111f16",
+                        "surface-container-highest": "#e4e2dd",
+                        "on-primary-fixed": "#0b2013",
+                        "on-secondary-container": "#59685c",
+                        "surface-variant": "#e4e2dd",
+                        "surface-bright": "#fbf9f4",
+                        "on-secondary-fixed-variant": "#3b4a40",
+                        "primary-container": "#1b3022",
+                        "tertiary-container": "#3a2800",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#f5f3ee",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "inverse-surface": "#30312e",
+                        "surface-tint": "#4d6453",
+                        "on-primary-container": "#819986",
+                        "surface-container-high": "#eae8e3",
+                        "secondary-fixed-dim": "#bacbbd",
+                        "inverse-on-surface": "#f2f1ec",
+                        "surface-container": "#f0eee9",
+                        "on-tertiary-container": "#b18d48",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "tertiary": "#211500",
+                        "on-primary": "#ffffff",
+                        "primary": "#061b0e",
+                        "secondary-container": "#d6e7d8",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "on-error": "#ffffff",
+                        "outline-variant": "#c3c8c1",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed": "#ffdea5",
+                        "background": "#fbf9f4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #fbf9f4;
+            color: #1b1c19;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Noto Serif', serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface selection:bg-tertiary-fixed selection:text-on-tertiary-fixed">
+<!-- TopAppBar -->
+<header class="bg-[#fbf9f4]/80 backdrop-blur-2xl docked full-width top-0 sticky z-50 shadow-[0px_12px_32px_rgba(27,28,25,0.06)]">
+<div class="flex justify-between items-center px-10 py-6 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#1B3022] cursor-pointer">menu</span>
+<span class="font-serif italic text-2xl text-[#1B3022]">Arun Bakery</span>
+</div>
+<nav class="hidden md:flex gap-10 items-center">
+<a class="font-serif tracking-tight text-3xl font-light text-[#1B3022] border-b-2 border-[#e9c176] pb-1" href="#">The Artisanal Hearth</a>
+<a class="text-[#1B3022]/60 hover:text-[#1B3022] transition-colors font-label uppercase tracking-widest text-xs" href="#">Collection</a>
+<a class="text-[#1B3022]/60 hover:text-[#1B3022] transition-colors font-label uppercase tracking-widest text-xs" href="#">Story</a>
+</nav>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-sm font-label uppercase tracking-[0.2em] text-xs transition-all duration-300 hover:bg-primary-container active:scale-95 duration-150 ease-in-out">
+                Order Now
+            </button>
+</div>
+</header>
+<main>
+<!-- Luxury Hero Section -->
+<section class="relative min-h-[795px] flex items-center overflow-hidden bg-surface">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-90 scale-105" data-alt="close-up of artisan sourdough bread on dark stone countertop with dramatic side lighting and dusting of flour" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZS7_dq15fpbWwZPNBsIClVfq1EuhHKiw42U3IlXvmomjeSJkRyCvE5uMNja7RJWSswcZplu7GE6Xmzt2cXY9yijriynGohG6Ocwzn_B70RlSZD2MX1dD88Gw61UqzaDXMUqbLK0a_AxLnrkThqhdxhJWOrff67JvbqMS2eXI2p7K2BM0a7Cz1TxulZZCo203V4i18T9ACChjBDx7BznQ01GCr5ut3MDZInalGsATqAZI0jBY7heO5icDJjh_W6gGg-THPgQ1oIzFF"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/60 to-transparent"></div>
+</div>
+<div class="container mx-auto px-10 relative z-10">
+<div class="max-w-2xl">
+<span class="font-label text-tertiary-fixed-dim tracking-[0.3em] uppercase text-sm mb-6 block">Est. 1996 — Hand-Forged Heritage</span>
+<h1 class="text-display-lg text-6xl md:text-8xl text-white font-headline leading-[1.1] mb-8 -ml-1">
+                        Soul in Every <span class="italic font-light">Crumb.</span>
+</h1>
+<p class="text-white/80 text-xl font-body max-w-lg mb-10 leading-relaxed">
+                        Where ancient grains meet the patient hands of the archivist. Our sourdough is born of a 28-year-old mother culture and the morning mist.
+                    </p>
+<div class="flex gap-6">
+<button class="bg-tertiary-fixed text-on-tertiary-fixed px-10 py-4 rounded-sm font-label uppercase tracking-widest text-xs font-bold hover:bg-white transition-all">
+                            Explore Collection
+                        </button>
+<button class="border border-white/30 backdrop-blur-md text-white px-10 py-4 rounded-sm font-label uppercase tracking-widest text-xs hover:bg-white/10 transition-all">
+                            Our Process
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Savory Heritage Puffs Section (Bento Style) -->
+<section class="py-32 px-10 bg-surface-container-low">
+<div class="max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<span class="font-label text-on-surface-variant tracking-[0.2em] uppercase text-xs mb-4 block">The Savory Archive</span>
+<h2 class="text-5xl font-headline text-primary leading-tight">Savory Heritage Puffs</h2>
+</div>
+<p class="text-on-surface-variant font-body max-w-sm">
+                        Layers of laminated dough, hand-folded 144 times to achieve the perfect structural integrity of flavor and crunch.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<div class="md:col-span-8 group relative overflow-hidden bg-white shadow-sm">
+<img class="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700" data-alt="artisanal golden brown pastry puff with herbs on a rustic ceramic plate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpRvVsVEOZycNlnyqxg_EhH7ajfa-QWXA6rcebiQvdjx8PxxOmfx5U1YEZ99ok7eHkotfk5i-ZuzYu9eQW3862s_2k6CmGY2z4v5Xen6uPY2jiUNzI8vfXIPPk07__fIGmMK_gp5I2onqNeoeAA_CnAXPQszDD2FpPDnfkX0Rz5kpMws-ebB3BFPmmV6ZS2-Wj1reactBo9sruhgeznKLV9fUkTR7-Y_zYNXXBNjLikubD8kGwsxjaFJ7m__irfSEeCBhFzKcnQkZt"/>
+<div class="absolute bottom-0 left-0 right-0 p-10 bg-gradient-to-t from-primary/80 to-transparent text-white">
+<span class="text-tertiary-fixed text-sm font-label uppercase tracking-widest mb-2 block">Signature Selection</span>
+<h3 class="text-3xl font-headline italic">The Truffle &amp; Wild Leek Shell</h3>
+</div>
+</div>
+<div class="md:col-span-4 flex flex-col gap-6">
+<div class="bg-primary-container p-10 flex-1 flex flex-col justify-center text-on-primary-container">
+<span class="material-symbols-outlined text-tertiary-fixed text-4xl mb-6" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<h3 class="text-2xl font-headline text-white mb-4">Gold-Crust Technique</h3>
+<p class="text-on-primary-container/80 text-sm leading-relaxed">
+                                Our proprietary baking process uses steam-injection at precisely 240°C to create the iconic golden shell.
+                            </p>
+</div>
+<div class="bg-tertiary-fixed p-10 flex-1 flex flex-col justify-center">
+<h3 class="text-primary font-headline text-2xl mb-4 italic">"The crunch that defines a morning."</h3>
+<span class="font-label text-on-tertiary-fixed text-xs uppercase tracking-widest">— Chef Arun</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Rich Black Forest Noir Section -->
+<section class="bg-primary py-32 overflow-hidden">
+<div class="max-w-screen-2xl mx-auto px-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-64 h-64 border border-tertiary-fixed/20 z-0"></div>
+<img class="relative z-10 w-full h-[700px] object-cover rounded-sm" data-alt="luxurious deep dark chocolate cake with cherries and gold leaf detail on a black marble pedestal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACplF6Mxtu2IFMCg2cHRaxHxKOzZedw6NlMZxZ0vCq5kK1ew1aIjiZfnfp1tXf1pptmgtWBKekUNYDNwj7Rvy_XG5XXjhfzrO6PE341hy6uYztrq0CfNkj8VjMW6eOiTQHHqqTIN_O6R0fLh0_MfBBdrgNtlOe0p__D5-FJeIUL1EfHRyyZRBfsE6zfqZLOYQaeBwBq4PUOaH1-WKS_SrdtlN7R6g1Cs11NeRFFTkbpj8uwCy-Zzkg9I3QCwYiE-YsiP8-F4ll02gr"/>
+</div>
+<div class="text-white">
+<span class="font-label text-tertiary-fixed tracking-[0.4em] uppercase text-xs mb-8 block">Dark. Decadent. Devotional.</span>
+<h2 class="text-6xl md:text-7xl font-headline mb-10 leading-tight">Rich Black Forest <span class="italic font-light text-tertiary-fixed-dim">Noir</span></h2>
+<p class="text-primary-fixed/70 text-lg mb-12 font-body leading-relaxed max-w-lg">
+                            An architectural marvel of 70% dark Valrhona cocoa, Kirsch-soaked cherries from our archives, and a silence that only true luxury provides.
+                        </p>
+<div class="space-y-8">
+<div class="flex gap-6 items-start">
+<span class="text-tertiary-fixed font-headline text-2xl">01</span>
+<div>
+<h4 class="font-label uppercase tracking-widest text-sm mb-2">The Cocoa Base</h4>
+<p class="text-primary-fixed/50 text-sm">Single-origin beans roasted to a deep, smoky profile.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<span class="text-tertiary-fixed font-headline text-2xl">02</span>
+<div>
+<h4 class="font-label uppercase tracking-widest text-sm mb-2">The Archivist Cherries</h4>
+<p class="text-primary-fixed/50 text-sm">Aged for six months in heritage oak barrels.</p>
+</div>
+</div>
+</div>
+<button class="mt-16 bg-transparent border border-tertiary-fixed text-tertiary-fixed px-12 py-5 rounded-sm font-label uppercase tracking-widest text-xs hover:bg-tertiary-fixed hover:text-on-tertiary-fixed transition-all duration-500">
+                            Pre-order the Noir Series
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Heritage Story Section -->
+<section class="py-32 bg-surface">
+<div class="max-w-screen-xl mx-auto px-10">
+<div class="text-center mb-24">
+<span class="font-label text-on-surface-variant tracking-[0.2em] uppercase text-xs mb-4 block">The Legacy of Arun Bakery</span>
+<h2 class="text-5xl font-headline text-primary mb-8">Our Heritage</h2>
+<div class="w-24 h-[1px] bg-tertiary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
+<div class="text-center md:text-right">
+<div class="mb-16">
+<h3 class="text-6xl font-headline text-primary mb-2">28+</h3>
+<span class="font-label uppercase tracking-widest text-xs text-on-surface-variant">Years of Mastery</span>
+</div>
+<div>
+<h3 class="text-6xl font-headline text-primary mb-2">50k+</h3>
+<span class="font-label uppercase tracking-widest text-xs text-on-surface-variant">Loaves Archived</span>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute inset-0 bg-tertiary-fixed-dim/10 -rotate-3 transition-transform group-hover:rotate-0"></div>
+<img class="relative z-10 w-full grayscale contrast-125 hover:grayscale-0 transition-all duration-700 aspect-[3/4] object-cover" data-alt="black and white photo of a master baker's floured hands shaping a loaf of bread in a sun-drenched workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwWYs_kaoCc8nxwUbwP3IY9lu0tasRUwQCLLaZkzRWBu02yClIanQoGUcQk64CxCBShsAmCJerRw9izRfbvturR9ZXOpjryg8tIMJ7NTqsn6Bi3oJ2GP5D6T46qZSnc6bKKuSp7xgS9b67hsR3u1uwRORwrSDgdIecsExnxggurO3c1mlxPhDhtkiAWmjrT4mfk2NpCzLyb5s0U0JKk971X5jHj8iZyI4OMpQ09a8pWtCUkeiljdj5-hBvoLJ68BQGGdljkGgJHzwt"/>
+</div>
+<div class="text-center md:text-left space-y-12">
+<p class="font-body italic text-xl text-primary leading-relaxed">
+                            "We don't just bake; we preserve. Each loaf is a document of the season, the grain, and the patient passage of time."
+                        </p>
+<div class="flex flex-col items-center md:items-start gap-4">
+<img alt="Arun Bakery Logo" class="h-12 w-auto opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-DZgYyoa3HkxHC_0uVT5wbBY5BLPnSmXOORhMN5zpqZ5lQigyynHW3kg8ra1Mup3d9ekVykeai3M1xRuUP7urLdJr8BYT1R-7i9ebx4avyrun9GOa1L2D5ULXtbQlc85fRSt9sTa1LniS9eu7y44MZ9x8EdAESPWukVJcXsBS77f7YaY3ic-jbN_vfhe6mbp6yWOBtCjL_R1hTF_ZnyAF3FzofgH8vdFGfD8qhTf1MhRc4BH2SLIEvlGq5jEa4M_9Zuyyn4ViWTHQ"/>
+<p class="text-on-surface-variant text-sm font-body">Founded in the heart of the valley, 1996.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Inner Circle Newsletter -->
+<section class="mx-10 mb-32">
+<div class="max-w-screen-2xl mx-auto bg-surface-container-high relative overflow-hidden flex flex-col md:flex-row items-center">
+<div class="absolute top-0 left-0 w-full h-1 bg-tertiary-fixed"></div>
+<div class="p-16 md:p-24 flex-1">
+<span class="font-label text-tertiary-fixed-variant tracking-[0.2em] uppercase text-xs mb-4 block">Exclusive Membership</span>
+<h2 class="text-4xl md:text-5xl font-headline text-primary mb-8 leading-tight">Join the Inner Circle</h2>
+<p class="text-on-surface-variant mb-12 max-w-md font-body">
+                        Receive monthly bulletins from the bakery archives. Early access to seasonal drops and the Archivist Collection.
+                    </p>
+<form class="flex flex-col sm:flex-row gap-4 max-w-md">
+<input class="flex-1 bg-surface-container-highest border-none focus:ring-1 focus:ring-tertiary text-sm py-4 px-6 rounded-sm placeholder:text-outline italic" placeholder="Your email address" type="email"/>
+<button class="bg-primary text-white font-label uppercase tracking-widest text-xs px-10 py-4 rounded-sm hover:bg-primary-container transition-colors">
+                            Subscribe
+                        </button>
+</form>
+</div>
+<div class="w-full md:w-1/3 h-[400px] md:h-full self-stretch">
+<img class="w-full h-full object-cover" data-alt="atmospheric scene of freshly baked baguettes in a rustic basket with morning sunlight streaming through window" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Umecy2oY30f8byY0pKmOKvx3wjR4tsLPbbHzu-AHPZFVV6kriPx6-xGE5mds8OHqL5KJRlFjysnBPPS4dISIk7VRZlM9MqXPkZWPKo2iGg6s_4O1NBoncBNPgJWDhGzG0ovtvPdrxt0J4b0M4BvGkcxWfcVuTuxp3hvfG6-8PzDgyqWWHggJNjmzxQxvU3_oL364YaA8SSHh15TqY-YJrx5-7zW1M0C0uuz8-jwVE1yJVpkxBaAmZ8zC2ThhpL3UeiwZr89htedL"/>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#eae8e3] w-full px-12 py-24 flex flex-col md:flex-row justify-between items-start gap-12 border-t border-outline-variant/10">
+<div class="max-w-sm">
+<span class="font-serif text-3xl tracking-tighter text-[#1B3022] mb-6 block">Arun Bakery</span>
+<p class="text-[#1B3022] dark:text-[#fbf9f4] font-sans text-sm tracking-widest uppercase mb-8 leading-relaxed">
+                © 2024 The Tactile Archivist Bakery. Heritage Grains. Hand-Forged Sourdough.
+            </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer hover:text-tertiary transition-colors">language</span>
+<span class="material-symbols-outlined text-primary cursor-pointer hover:text-tertiary transition-colors">share</span>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 flex-1 md:justify-end">
+<div class="flex flex-col gap-4">
+<span class="font-bold text-[#e9c176] font-sans text-xs tracking-widest uppercase mb-2">Explore</span>
+<a class="text-[#1B3022]/70 hover:text-[#e9c176] transition-colors duration-200 font-sans text-sm tracking-widest uppercase" href="#">Our Story</a>
+<a class="text-[#1B3022]/70 hover:text-[#e9c176] transition-colors duration-200 font-sans text-sm tracking-widest uppercase" href="#">The Archivist Collection</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-bold text-[#e9c176] font-sans text-xs tracking-widest uppercase mb-2">Connect</span>
+<a class="text-[#1B3022]/70 hover:text-[#e9c176] transition-colors duration-200 font-sans text-sm tracking-widest uppercase" href="#">Wholesale</a>
+<a class="text-[#1B3022]/70 hover:text-[#e9c176] transition-colors duration-200 font-sans text-sm tracking-widest uppercase" href="#">Visit Us</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-bold text-[#e9c176] font-sans text-xs tracking-widest uppercase mb-2">Policies</span>
+<a class="text-[#1B3022]/70 hover:text-[#e9c176] transition-colors duration-200 font-sans text-sm tracking-widest uppercase" href="#">Sustainability</a>
+<a class="text-[#1B3022]/70 hover:text-[#e9c176] transition-colors duration-200 font-sans text-sm tracking-widest uppercase" href="#">Terms</a>
+</div>
+<div class="flex flex-col gap-4">
+<img alt="Logo" class="h-10 w-auto object-contain self-start" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfWy0NVSyikk34bwK9fEzpiocoftAOSikbpT3jOb92AKk9YVOnTidf1CK7WPURPr7RSQS3y__My805fpd9Q5WkVq9qbTM2RLgX6gjhn6HRh5y0OZclBdjE8nq3LTWSFHdeYueEF85YLYZqj5SA3ztQKMK7YNtBoKHO3V2QFgkZnxZu5Vt4w1ySZO2Ib_NcTygpl1QdB1DgdT0EFxp8MMmp4H_sArsnzFJ5f5omWhgGtXZRCfhfjMiTRpnDOZ6N23ZqAyNet8PBhn99"/>
+</div>
+</div>
+</footer>
+</body></html>
